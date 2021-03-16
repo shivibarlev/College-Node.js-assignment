@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Readme</title>
+</head>
+<body>
+
+<h1>Internet Course - Exercise 3</h1>
+<h2>Author 1</h2>
+<ul>
+    <li>Elyashiv Bar lev</li>
+    <li>ID 313366858</li>
+    <li>elyashivba@hac.ac.il</li>
+</ul>
+
+<h2>Author 2</h2>
+<ul>
+<li>Ishaia Winstock</li>
+<li>ID 304939234</li>
+<li>ishaiawi@hac.ac.il</li>
+</ul>
+
+<h2>Execution</h2>
+<p>Open app.js through webstorm and run npm install, run the project.</p>
+<p>In th web browser go to http://localhost:3000/.</p>
+
+<h2>Assumptions</h2>
+<p>The site uses bootstrap CDN and API for the forecast therefore assumes an internet connection is available.</p>
+<p>The user can select multiple locations and display their forecast, not one at a time.</p>
+<p>We have errors regarding the paths for the background images for some reason..they work fine.</p>
+<p>The functions.js file from ex3 has been divided into separate files, however they still have some big functions.<br>I had points taken off for it on ex3 so I hope it will not affect this exercise.</p>
+<p>There are some specific inline style elements to save some trouble.</p>
+<p>Database has some test tables and rows(some users do not have passwords but that is old).</p>
+<p><b>Did not understand if we need to submit our DB or let you create one, we created the tables using terminal commands (except the session table that was exactly like the code examples from class.</b></p>
+<p> terminal commands for creating the tables: <br>for UserLocations: node_modules\.bin\sequelize model:generate --name UserLocations --attributes email:string,name:string,longitude:double,latitude:double
+<br>for Users: node_modules\.bin\sequelize model:generate --name Users --attributes email:string,firstName:string,lastName:string,password:string</p>
+
+<address>Submitted 24 January 2021 </address>
+</body>
+</html>
